@@ -11,7 +11,7 @@ pipeline {
                 sh "./stage2.sh"
             }
         }
-        stage('Pipeline Stage 2'){
+        stage('Pipeline Stage 3'){
             steps {
                 sh "./stage3.sh"
             }
