@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Pipeline Stage 1'){
             steps {
+                sh "chmod 777 *.sh"
                 sh "./stage1.sh"
             }
         }
